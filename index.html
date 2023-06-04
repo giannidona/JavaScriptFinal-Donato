@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>E-Commerce</title>
+  </head>
+  <body>
+    <header>
+      <h1>RICH LIFE</h1>
+      <h3>MINIMALIST SHOP</h3>
+    </header>
+    <section>
+      <div class="container-cart">
+        <p class="cart">Cart (<span id="cartAmount">0</span>)</p>
+        <div class="container-menu">
+          <!-- SE AGREGA EN EL JS -->
+        </div>
+        <div class="container-btn">
+          <div class="total-text">
+            <span id="total"></span>
+          </div>
+          <div class="btns">
+            <button type="submit" id="confirm">Confirm</button>
+            <button id="clear-cart">Clear</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-bar">
+        <div>
+          <form id="searchForm">
+            <input
+              class="search-bar"
+              type="text"
+              name=""
+              id="productInput"
+              placeholder="search product"
+            />
+            <button type="submit" id="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="container-products">
+        <!-- SE AGREGA EN EL JS -->
+      </div>
+      <footer>
+        <p>made with 🖤 Gianluca Donato</p>
+      </footer>
+    </section>
+    <script src="app.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>

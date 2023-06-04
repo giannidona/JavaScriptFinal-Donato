@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Iphone 14",
+    "img": "img/iphone14.png",
+    "price": 1500,
+    "quantity": 0
+  },
+  {
+    "id": 2,
+    "name": "Silicone Case",
+    "img": "img/case.png",
+    "price": 50,
+    "quantity": 0
+  },
+  {
+    "id": 3,
+    "name": "Airpods",
+    "img": "img/airpods.jpeg",
+    "price": 250,
+    "quantity": 0
+  },
+  {
+    "id": 4,
+    "name": "Play Station 5",
+    "img": "img/ps5.png",
+    "price": 2250,
+    "quantity": 0
+  },
+  {
+    "id": 5,
+    "name": "Jordan Black Cat",
+    "img": "img/jordan.png",
+    "price": 1450,
+    "quantity": 0
+  },
+  {
+    "id": 6,
+    "name": "Green Rolex",
+    "img": "img/rolex.png",
+    "price": 10250,
+    "quantity": 0
+  },
+  {
+    "id": 7,
+    "name": "Termo Stanley",
+    "img": "img/termo.png",
+    "price": 150,
+    "quantity": 0
+  },
+  {
+    "id": 8,
+    "name": "Monitor Zowie",
+    "img": "img/monitor.png",
+    "price": 3200,
+    "quantity": 0
+  },
+  {
+    "id": 9,
+    "name": "Consola Pionner",
+    "img": "img/consola.png",
+    "price": 4000,
+    "quantity": 0
+  }
+]
